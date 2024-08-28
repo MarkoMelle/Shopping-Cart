@@ -46,9 +46,3 @@ Welcome to the **Shopping Cart Application**! This project is a modern web appli
 This project is configured to be deployed on GitHub Pages using GitHub Actions. Every push to the `main` branch triggers an automatic deployment. The site will be available at:
 
 [`Shopping Cart`](https://markomelle.github.io/Shopping-Cart/)
-
-### Steps to Deploy:
-
-1. **Push to `main` branch**: Any push to the `main` branch will trigger the deployment workflow.
-2. **GitHub Actions**: GitHub Actions will build the project and deploy the `dist` folder to the `gh-pages` branch.
-3. **Access Your Deployed Site**: After deployment, your site will be live on GitHub Pages at the URL mentioned above.
