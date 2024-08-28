@@ -7,14 +7,15 @@ import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 function App() {
+  const basename = "/Shopping-Cart";
   return (
     <ShoppingCartProvider>
       <Navbar />
       <Container className="mb-4">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/about" element={<About />} />
+          <Route path={`${basename}/`} element={<Home />} />
+          <Route path={`${basename}/store`} element={<Store />} />
+          <Route path={`${basename}/about`} element={<About />} />
         </Routes>
       </Container>
     </ShoppingCartProvider>
