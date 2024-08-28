@@ -45,7 +45,7 @@ Welcome to the **Shopping Cart Application**! This project is a modern web appli
 
 This project is configured to be deployed on GitHub Pages using GitHub Actions. Every push to the `main` branch triggers an automatic deployment. The site will be available at:
 
-`https://MarkoMelle.github.io/Shopping Cart/`
+[`Shopping Cart`](https://markomelle.github.io/Shopping-Cart/)
 
 ### Steps to Deploy:
 
