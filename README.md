@@ -32,6 +32,7 @@ Welcome to the **Shopping Cart Application**! This project is a modern web appli
 ├── App.tsx                # Main application component
 ├── main.tsx               # Application entry point
 └── index.html             # Main HTML template
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
